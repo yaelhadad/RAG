@@ -20,7 +20,7 @@ current_chunk = [sentences[0]]
 chunk_embedding_sum = embeddings[0]
 chunk_size = 1
 
-THRESHOLD = 0.5 # similarity threshold for starting a new chunk
+THRESHOLD = 0.6 # similarity threshold for starting a new chunk
 
 for i in range(1, len(sentences)):
     # Compute average embedding of current chunk
